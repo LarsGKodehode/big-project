@@ -1,0 +1,20 @@
+#root {
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+}
+
+/* Overarching layout */
+#root > * {
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-areas:
+    "menu menu menu"
+    "nav main main"
+    "nav main main"
+  ;
+  grid-template-rows: minmax(100px, 1fr) repeat(2, minmax(100px, 3fr));
+  grid-template-columns: minmax(100px, 1fr) repeat(2, minmax(100px, 3fr));
+  gap: min(5px, 1em);
+}

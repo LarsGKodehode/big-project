@@ -1,0 +1,37 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+
+  aria-hidden="true"
+  role="img"
+
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 20 10">
+  <defs>
+    <linearGradient
+      id="gradient1"
+      x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%">
+      <stop offset="000%" stop-color="#7d23cb"></stop>
+      <stop offset="050%" stop-color="#f87305"></stop>
+      <stop offset="100%" stop-color="#ffe70c"></stop>
+    </linearGradient>
+  </defs>
+
+  <circle
+    id="circleLeft"
+    cx="7"
+    cy="5"
+    r="7"
+
+    fill="url(#gradient1)"
+  ></circle>
+
+  <circle
+    id="circleRight"
+    cx="13"
+    cy="5"
+    r="7"
+
+    fill="url(#gradient1)"
+  ></circle>
+  </svg>
